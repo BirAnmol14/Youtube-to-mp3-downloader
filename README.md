@@ -18,3 +18,6 @@ This is a safe way to download Youtube videos as .mp3 files. Built with python o
 - Click download now option
 - Once downloaded, the mp3 files will be in the same folder/directory as the source code
 - Reset can be used at any time to return to the start state
+
+## Using .exe file:
+- If you use Windows Operating System and just want to use the app, download ytmp3-eel.exe and it can function as a standalone windows executable

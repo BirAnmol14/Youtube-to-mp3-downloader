@@ -1,14 +1,14 @@
 # Youtube-to-mp3-downloader
 This is a safe way to download Youtube videos as .mp3 files. Built with python on backend and web based modern UI.
 
-##Details:
+## Details:
 - Python code : ytmp3-eel.py
 - HTML,CSS and JS : web folder/directory
 
 ## Modules required:
 - eel
 - youtube_dl
-> Can be installed by using "pip install 'module-name'" command
+> Can be installed by using " pip install 'module-name' " command
 
 ## To run:
 - run the ytmp3-eel.py file 

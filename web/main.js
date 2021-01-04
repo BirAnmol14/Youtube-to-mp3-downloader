@@ -44,7 +44,7 @@ elem.style.display="block";
 
 eel.expose(progressBar);
 function progressBar(data){
-	document.getElementById('currprog').style.width=Math.floor(data.downloaded_bytes/data.total_bytes)*100+"%"
+	document.getElementById('currprog').style.width=data._percent_str;
 	document.getElementById('description').innerHTML=data.status+": "+data._percent_str+" of "+data._total_bytes_str;
 	document.getElementById('speed').innerHTML="Current Download Speed: "+data._speed_str;
 	document.getElementById('eta').innerHTML="Estimated Time remaining: "+data._eta_str;
